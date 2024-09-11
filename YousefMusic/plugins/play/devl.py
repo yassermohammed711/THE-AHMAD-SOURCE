@@ -26,9 +26,9 @@ async def huhh(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "- source real", url=f"https://t.me/O_U_Q1"), 
+                        "- source BAR", url=f"https://t.me/O_U_Q1"), 
                  InlineKeyboardButton(
-                   "𓏺𝗬𝗮𝘀𝘀𝗲𝗿 .²¹",       url=f"https://t.me/Xs_UB"), 
+                   "AHMAD .²¹",       url=f"https://t.me/Xs_UB"), 
                  
              
              ],[ 
@@ -50,7 +50,7 @@ async def huhh(client: Client, message: Message):
 
 @app.on_message(filters.command(["قتهبهبه السورس","تبهبتبعبع","نلهلهلهل","بهبتعبعب السورس ✯"], ""), group=73) 
 async def deev(client: Client, message: Message):
-     user = await client.get_chat(chat_id="y_o_v")
+     user = await client.get_chat(chat_id="Xs_UB")
      name = user.first_name
      username = user.username 
      bio = user.bio
