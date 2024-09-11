@@ -34,7 +34,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-OWNER_ID = 2012962190
+OWNER_ID = 7059195791
 OWNER = getenv("OWNER")
 
 
