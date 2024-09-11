@@ -15,7 +15,7 @@ from pytgcalls.exceptions import (NoActiveGroupCall,TelegramServerError,AlreadyJ
 async def strcall(client, message):
     assistant = await group_assistant(Zelzaly, message.chat.id)
     try:
-        await assistant.join_group_call(message.chat.id, AudioPiped("https://graph.org/file/217aac5f9cd2b05f7ba5a.mp4"), stream_type=StreamType().pulse_stream)
+        await assistant.join_group_call(message.chat.id, AudioPiped("https://i.ibb.co/tD0n9sL/WWcx-Nv-GMw-XI.jpg"), stream_type=StreamType().pulse_stream)
         text = "~ المتكلمين بالأتصال :\n\n"
         participants = await assistant.get_participants(message.chat.id)
         k = 0
@@ -32,7 +32,7 @@ async def strcall(client, message):
 
         # إضافة زر شفاف في الأسفل
         inline_keyboard = InlineKeyboardMarkup([
-            [InlineKeyboardButton("سورس ريال", url=config.SUPPORT_CHAT)],
+            [InlineKeyboardButton("سورس bar", url=config.SUPPORT_CHAT)],
         ])      
 
         await message.reply(f"{text}", reply_markup=inline_keyboard)
@@ -59,6 +59,6 @@ async def strcall(client, message):
 
         # إضافة زر شفاف في الأسفل
         inline_keyboard = InlineKeyboardMarkup([
-            [InlineKeyboardButton("سورس ريال", url=config.SUPPORT_CHAT)],
+            [InlineKeyboardButton("سورس bar", url=config.SUPPORT_CHAT)],
         ])
         await message.reply(f"{text}", reply_markup=inline_keyboard)
