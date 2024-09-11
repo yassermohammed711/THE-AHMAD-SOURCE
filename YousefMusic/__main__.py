@@ -44,7 +44,7 @@ async def init():
     await userbot.start()
     await Zelzaly.start()
     try:
-        await Zelzaly.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await Zelzaly.stream_call("https://i.ibb.co/tD0n9sL/WWcx-Nv-GMw-XI.jpg")
     except NoActiveGroupCall:
         LOGGER("YousefMusic").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
