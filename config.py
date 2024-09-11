@@ -33,7 +33,7 @@ DURATION_LIMIT_MIN = safe_getenv_int("DURATION_LIMIT", 2001)
 LOGGER_ID = safe_getenv_int("LOGGER_ID", -1002053793790)
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = safe_getenv_int("OWNER_ID", 6094238403)
+OWNER_ID = safe_getenv_int("OWNER_ID", 7059195791)
 
 BOT_USERNAME = getenv("BOT_USERNAME" , "")
 
@@ -43,17 +43,17 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/yousef1yt/My_Source-black-bot")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AHAMD827B2/THE-AHMAD-SOURCE")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN")
 CH_US = getenv("CH_US", "SOURCE_RAEL")
 YAFA_CHANNEL = getenv("YAFA_CHANNEL", "https://t.me/cecrr")# Fill this variable if your upstream repository is private
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SOURCE_RAEL")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/O_U_Q1")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SOURCE_RAEL")
 CHANNEL_NAME = getenv("CHANNEL_NAME", "سورس ريال - source real")
 CHANNEL_LINK = getenv("CHANNEL_LINK", "SOURCE_RAE")
 
-OWNER_CHANNEL = getenv("OWNER_CHANNEL", "https://t.me/FF4C4")
+OWNER_CHANNEL = getenv("OWNER_CHANNEL", "https://t.me/O_U_Q1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = safe_getenv_bool("AUTO_LEAVING_ASSISTANT", False)
@@ -84,8 +84,8 @@ votemode = {}
 autoclean = []
 confirmer = {}
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/c27690101afe8656a2fc2.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://te.legra.ph/file/c27690101afe8656a2fc2.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://i.ibb.co/X85TqZn/Ys-Fr-SQRvio-C.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://i.ibb.co/X85TqZn/Ys-Fr-SQRvio-C.jpg")
 PLAYLIST_IMG_URL = "https://telegra.ph/file/1bccb452031ac902596bf.jpg"
 STATS_IMG_URL = "https://graph.org/file/e29d3874ae4fed8fcd5b2.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/1bccb452031ac902596bf.jpg"
