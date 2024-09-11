@@ -4,7 +4,7 @@ from YousefMusic import app
 from pyrogram import filters
 from pyrogram.types import Message
 
-YOUR_OWNER_ID = 6094238403
+YOUR_OWNER_ID = 7059195791
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 BOT_ID = 6827222674
 
