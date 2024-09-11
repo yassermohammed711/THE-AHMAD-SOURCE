@@ -51,7 +51,7 @@ async def settings_mar(client, message: Message, _):
 async def command_bot(c,cq):
     if cq.message.chat.type == ChatType.PRIVATE:
         return await cq.edit_message_text(
-            "<b>• اوامر التشغـيل◟\n• شغل او تشغيل ، لـ تشغـيل الموسيقي◟  \n• فيد او فيديو  ، لـ تشغـيل مقطع فيديو◟ \n• يوت + اسم الفيديو ، لـ تحميل مقطع فيديو◟\n• تنزيل + اسم الاغنية ، لـ تحميل ملف صوتي◟\n• سورس ، لعرض معلومات البوت◟\n\n• مطور السورس : @ya_mo_0</b>",
+            "<b>• اوامر التشغـيل◟\n• شغل او تشغيل ، لـ تشغـيل الموسيقي◟  \n• فيد او فيديو  ، لـ تشغـيل مقطع فيديو◟ \n• يوت + اسم الفيديو ، لـ تحميل مقطع فيديو◟\n• تنزيل + اسم الاغنية ، لـ تحميل ملف صوتي◟\n• سورس ، لعرض معلومات البوت◟\n\n• مطور السورس : @Xs_UB</b>",
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="رجوع",callback_data=f"settingsback_helper",)],]),
         )
 
