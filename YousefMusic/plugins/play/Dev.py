@@ -39,10 +39,10 @@ OWNER = getenv("OWNER")
 
 
 
-@app.on_message(filters.command(["مطور السورس", "• مطور السورس •","ياسر"], ""))
+@app.on_message(filters.command(["مطور السورس", "• مطور السورس •","حمد"], ""))
 async def dev(client: Client, message: Message):
      bot_username = client.me.username
-     user = await client.get_chat(2012962190)
+     user = await client.get_chat(7059195791)
      name = user.first_name
      username = user.username 
      bio = user.bio
