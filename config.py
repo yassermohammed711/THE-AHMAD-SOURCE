@@ -84,8 +84,8 @@ votemode = {}
 autoclean = []
 confirmer = {}
 
-START_IMG_URL = getenv("START_IMG_URL", "https://i.ibb.co/Fm4zFSg/En-Fox-Bx-AIe-R.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://i.ibb.co/Fm4zFSg/En-Fox-Bx-AIe-R.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://i.ibb.co/0hrqxjL/ak-ENElh-Ppi-B.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://i.ibb.co/0hrqxjL/ak-ENElh-Ppi-B.jpg")
 PLAYLIST_IMG_URL = "https://telegra.ph/file/1bccb452031ac902596bf.jpg"
 STATS_IMG_URL = "https://graph.org/file/e29d3874ae4fed8fcd5b2.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/1bccb452031ac902596bf.jpg"
