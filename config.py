@@ -50,7 +50,7 @@ CH_US = getenv("CH_US", "SOURCE_RAEL")
 YAFA_CHANNEL = getenv("YAFA_CHANNEL", "https://t.me/O_U_Q1")# Fill this variable if your upstream repository is private
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/O_U_Q1")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/O_U_Q1")
-CHANNEL_NAME = getenv("CHANNEL_NAME", "SOURCE SAQE")
+CHANNEL_NAME = getenv("CHANNEL_NAME", "SOURCE SAQR")
 CHANNEL_LINK = getenv("CHANNEL_LINK", "O_U_Q1")
 
 OWNER_CHANNEL = getenv("OWNER_CHANNEL", "https://t.me/O_U_Q1")
