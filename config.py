@@ -47,11 +47,11 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AHAMD827B2/THE-AHMAD
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN")
 CH_US = getenv("CH_US", "SOURCE_RAEL")
-YAFA_CHANNEL = getenv("YAFA_CHANNEL", "https://t.me/cecrr")# Fill this variable if your upstream repository is private
+YAFA_CHANNEL = getenv("YAFA_CHANNEL", "https://t.me/O_U_Q1")# Fill this variable if your upstream repository is private
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/O_U_Q1")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SOURCE_RAEL")
-CHANNEL_NAME = getenv("CHANNEL_NAME", "سورس ريال - source real")
-CHANNEL_LINK = getenv("CHANNEL_LINK", "SOURCE_RAE")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/O_U_Q1")
+CHANNEL_NAME = getenv("CHANNEL_NAME", "SOURCE SAQE")
+CHANNEL_LINK = getenv("CHANNEL_LINK", "O_U_Q1")
 
 OWNER_CHANNEL = getenv("OWNER_CHANNEL", "https://t.me/O_U_Q1")
 
@@ -84,8 +84,8 @@ votemode = {}
 autoclean = []
 confirmer = {}
 
-START_IMG_URL = getenv("START_IMG_URL", "https://i.ibb.co/0hrqxjL/ak-ENElh-Ppi-B.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://i.ibb.co/0hrqxjL/ak-ENElh-Ppi-B.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://i.ibb.co/F0s3xbQ/ggd-MVf-Ros-WO.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://i.ibb.co/F0s3xbQ/ggd-MVf-Ros-WO.jpg")
 PLAYLIST_IMG_URL = "https://telegra.ph/file/1bccb452031ac902596bf.jpg"
 STATS_IMG_URL = "https://graph.org/file/e29d3874ae4fed8fcd5b2.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/1bccb452031ac902596bf.jpg"
